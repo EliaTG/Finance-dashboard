@@ -1,7 +1,7 @@
 import React from 'react';
 import Topbar from './components/topbar/Topbar';
 import Sidebar from './components/sidebar/Sidebar';
-import Profile from './components/profilebox/Profile';
+// import Profile from './components/profilebox/Profile';
 import Chart from './components/chart/chart';
 import Home from './pages/Home'
 import './App.css';

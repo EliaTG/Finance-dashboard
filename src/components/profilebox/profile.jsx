@@ -67,7 +67,7 @@ function Recentpayment() {
         
             </div>   
             <div className="spendingmoney">
-                <span>$5000.00</span>
+                <span>$500.00</span>
                 <span>5 jan, 2022</span>
             </div>   
           

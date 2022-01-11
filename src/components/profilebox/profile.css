@@ -6,6 +6,7 @@
 .profile{
     height: 250px;
     width: 100%;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +38,13 @@ margin: 15px 0px 15px 0px;
     font-weight: 500;
 }
 /* Balancebox */
-
+.balancebox{
+    margin: 2px 0px 20px 0px;
+}
+.balancebox h2{
+    font-size: 35px;
+    color: var(--Balance);
+}
 /* Recentpayment */
 .recenttitle{
     display: flex;
