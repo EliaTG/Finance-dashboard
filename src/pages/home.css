@@ -1,0 +1,14 @@
+.home{
+    flex: 10;
+    background-color: var(--background);
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+  /* items */
+  .item-1 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    /* background-color: blue; */
+  }

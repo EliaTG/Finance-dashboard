@@ -46,10 +46,13 @@ function Balancebox() {
 function Recentpayment() {
     return (
         <div className='paymentbox'>
-           <div>
+           <div className='recenttitle'>
                 <h3>Recent</h3>
-                <Delete/>
-                <MoreVert/>
+                <div className="paymentIcon">
+                    <Delete/>
+                    <MoreVert/>
+                </div>
+               
             </div> 
             <div className='Avataruser'>
             
@@ -62,7 +65,11 @@ function Recentpayment() {
                 </div>
                        
         
-            </div>      
+            </div>   
+            <div className="spendingmoney">
+                <span>$5000.00</span>
+                <span>5 jan, 2022</span>
+            </div>   
           
         </div>
     )

@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    /* height: calc(100vh - 60px); */
+    height: calc(100vh - 70px);
+    width: auto;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -34,7 +34,7 @@
 }
 .sidebarAccount{
     position: absolute;
-    top: 50px;
+    top: 10px;
 }
 .sidebarAccount div{
     margin: 10px 5px 10px 0px;
