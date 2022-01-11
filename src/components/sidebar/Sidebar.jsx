@@ -1,6 +1,6 @@
 import React from 'react';
 import './sidebar.css';
-import {Home, SwapVert,Timeline, Notifications, Settings, ExitToApp, Add} from '@material-ui/icons/';
+import {Home, SwapVert,Timeline, People, Settings, ExitToApp, Add} from '@material-ui/icons/';
 
 function Sidebar() {
     return (
@@ -26,8 +26,7 @@ function Sidebar() {
                               <SwapVert className="sidebarIcon"/>
                             </li>
                             <li className="sidebarListItem">
-                              <Notifications className="sidebarIcon"/>
-                              <span className="topIconSidebar">2</span>
+                              <People className=" notification"/>
                             </li>
                         </ul>
                              <div className="BottomMenu">

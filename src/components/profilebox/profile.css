@@ -1,6 +1,13 @@
+.profilebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 4;
+}
 .profile{
     height: 250px;
-    width: 30%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,4 +37,26 @@ margin: 15px 0px 15px 0px;
 }
 .profileIcon p{
     font-weight: 500;
+}
+/* Balancebox */
+
+/* Recentpayment */
+.FirstAvatar,.SecondAvatar,.ThirdAvatar,.FourthAvatar{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.FirstAvatar{
+    background-image: url('https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-2379004.jpg&fm=jpg');
+}
+.SecondAvatar{
+    background-image: url('https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg');
+}
+.ThirdAvatar{
+    background-image: url('https://images.pexels.com/photos/8424940/pexels-photo-8424940.jpeg?cs=srgb&dl=pexels-pavel-danilyuk-8424940.jpg&fm=jpg');
+}
+.FourthAvatar{
+    background-image: url('https://images.pexels.com/photos/2955376/pexels-photo-2955376.jpeg?cs=srgb&dl=pexels-teddy-joseph-2955376.jpg&fm=jpg');
 }
