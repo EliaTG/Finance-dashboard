@@ -1,0 +1,14 @@
+/* .container{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    display: flex;
+    height: 100%;
+}
+.others{ 
+    flex: 10;
+    background-color: aqua;
+}

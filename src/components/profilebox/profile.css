@@ -1,0 +1,33 @@
+.profile{
+    height: 250px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile h3{
+margin: 15px 0px 15px 0px;
+}
+.profilepicture{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-image: url('https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg?cs=srgb&dl=pexels-masha-raymers-2726111.jpg&fm=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+.profileIcon{
+    border:1px solid grey;
+    text-align: center;
+    border-radius: 0.8rem;
+    width: 100px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileIcon p{
+    font-weight: 500;
+}

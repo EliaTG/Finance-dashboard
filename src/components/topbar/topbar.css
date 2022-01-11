@@ -1,0 +1,62 @@
+
+body{
+    background-color: grey;
+}
+.topbar{
+    width: 100%;
+    height: 60px;
+    background-color: var(--background);
+    flex: 10;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.topbarwrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+.topright{
+    display: flex;
+    align-items: center;
+}
+.topbarIcons{
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.topIconBag{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Darkmode{
+    height: 30px;
+    width: 70px;
+    background-color: #f2f2f2;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: row;
+}
+.dark{
+    transform: rotate(180deg);
+}
+.light{
+    color: var(--Sunnyicon);
+}

@@ -1,6 +1,8 @@
 /* Variables */
 :root{
-
+ --Btncolor: #157afe;
+ --Sunnyicon: #86bafe;
+ --background: #fffefe;
 }
 *{
   margin: 0;
