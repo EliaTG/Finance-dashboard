@@ -25,7 +25,7 @@ margin: 15px 0px 15px 0px;
  
 }
 .profileIcon{
-    border:1px solid grey;
+    border:1px solid #a0a0a0;
     text-align: center;
     border-radius: 0.8rem;
     width: 100px;
@@ -42,21 +42,53 @@ margin: 15px 0px 15px 0px;
     margin: 2px 0px 20px 0px;
 }
 .balancebox h2{
-    font-size: 35px;
+    font-size: 45px;
     color: var(--Balance);
+    text-align: center;
 }
+.balancebox p, .usd{
+    text-align: center;
+    color: #a0a0a0;
+}
+/* .usd{
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+} */
+.date,.status{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0px 7px 0px;
+}
+.status .active{
+    color: #5cd45b;
+}
+.button button{
+margin: 10px;
+width: 100px;
+outline: none;
+background: transparent;
+border: 1px solid #a0a0a0;
+border-radius: 0.8rem;
+}
+button span{
+    padding: auto 2px;
+}
+
+
 /* Recentpayment */
 .recenttitle{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin: 15px 0px;
 }
 .Avataruser{
     display: flex;
     flex-direction: row;
 }
 .Avataruser div{
-    margin: 0px 4px 0px 4px;
+    margin: 5px 4px 0px 4px;
 }
 .FirstAvatar,.SecondAvatar,.ThirdAvatar,.FourthAvatar{
     height: 35px;
@@ -76,4 +108,12 @@ margin: 15px 0px 15px 0px;
 }
 .FourthAvatar{
     background-image: url('https://images.pexels.com/photos/2955376/pexels-photo-2955376.jpeg?cs=srgb&dl=pexels-teddy-joseph-2955376.jpg&fm=jpg');
+}
+.spendingmoney{
+    border:1px solid #a0a0a0;
+    text-align: center;
+    border-radius: 0.8rem;
+    width: 150px;
+    height: 40px;
+    margin: 5px 0px 10px 0px ;
 }

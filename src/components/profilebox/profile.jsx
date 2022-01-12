@@ -15,6 +15,7 @@ export default function Profile() {
           </div>
           <Balancebox/>
           <Recentpayment/>
+          <div className='line'></div>
         </div>
         
     )
@@ -23,9 +24,9 @@ export default function Profile() {
 function Balancebox() {
     return (
         <div className='balancebox'>
-            <span>Total Balance</span>
+            <p>Total Balance</p>
            <h2>$20,183</h2>
-           <span>USD</span>
+           <span className='usd'>USD</span>
            <div>
                <div className="date">
                     <span>Date</span>
@@ -33,12 +34,12 @@ function Balancebox() {
                </div>
                <div className="status">
                     <span>Card status</span>
-                    <span>Active</span>
+                    <span className='active'>Active</span>
                </div>
            </div>
            <div className="button">
-               <button> <ArrowUpward/> Send</button>
-               <button> <ArrowDownward/> Receive</button>
+               <button> <ArrowUpward className='arrowup' /> <span className='btnsend'>Send</span></button>
+               <button> <ArrowDownward className='arrowdown'/> <span className='btnreceive' >Receive</span></button>
            </div>
         </div>
     )
@@ -67,7 +68,7 @@ function Recentpayment() {
         
             </div>   
             <div className="spendingmoney">
-                <span>$500.00</span>
+                <span>$599.00</span>
                 <span>5 jan, 2022</span>
             </div>   
           
